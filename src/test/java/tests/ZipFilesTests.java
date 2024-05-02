@@ -4,7 +4,6 @@ import com.codeborne.pdftest.PDF;
 import com.codeborne.xlstest.XLS;
 import com.opencsv.CSVReader;
 import org.junit.jupiter.api.Test;
-
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
@@ -13,9 +12,9 @@ import java.util.zip.ZipInputStream;
 
 import static org.assertj.core.api.Assertions.*;
 
-public class PracticeFormTest {
+public class ZipFilesTests {
 
-    private final ClassLoader cl = PracticeFormTest.class.getClassLoader();
+    private final ClassLoader cl = ZipFilesTests.class.getClassLoader();
 
     @Test
     void zipFileShouldContainFilesTest() throws Exception {
